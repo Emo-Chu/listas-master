@@ -20,7 +20,7 @@
 <head>
 	<title>Lista</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="indexx.css">
+	<link rel="stylesheet" href="index.css">
 </head>
 <body>
 	<center>
