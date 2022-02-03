@@ -8,19 +8,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Iniciar sesion</title>
+	<title>Iniciar</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="login.css">
 </head>
 <body>
 	<center>
 		<form method="POST" action="loginProceso.php" class="login"> 
-			<h2>INGRESAR</h2>
+			<img src="img/aea.png" alt="">
+			<h2>Ingresar</h2>
 			<label>Usuario:</label>
 			<input type="text" name="txtUsu"placeholder="Usuario"class="usuario1">
 			<br>
 			<label>Password:</label>
-			<input type="password" name="txtPass"placeholder="Password">
+			<input type="password" name="txtPass"placeholder="Password"class="usuario1">
 			<br>
 			<br>
 			<input type="submit" value="Iniciar sesión">

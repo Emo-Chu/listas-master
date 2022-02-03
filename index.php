@@ -29,20 +29,20 @@
 		<h3>Tareas</h3>
 		<table>
 			<tr>
-				<td><b> Código</b></td>
-				<td><b>Tarea</b></td>
-				<td><b>Editar</b></td>
-				<td><b>Eliminar</b></td>
+				<td class="td"><b> Código</b></td>
+				<td class="td"><b>Tarea</b></td>
+				<td class="td" ><b>Editar</b></td>
+				<td class="td"><b>Eliminar</b></td>
 			</tr>
 
 			<?php 
 				foreach ($alumnos as $dato) {
 					?>
 					<tr>
-						<td><?php echo $dato->id_alumno; ?></td>
-						<td><?php echo $dato->ap_paterno; ?></td>
-						<td><a href="editar.php?id=<?php echo $dato->id_alumno; ?>"class="asul">Editar</a></td>
-						<td><a href="eliminar.php?id=<?php echo $dato->id_alumno; ?>"class="a">Eliminar</a></td>
+						<td class="td"><?php echo $dato->id_alumno; ?></td>
+						<td class="td"><?php echo $dato->ap_paterno; ?></td>
+						<td class="td"><a href="editar.php?id=<?php echo $dato->id_alumno; ?>"class="asul">Editar</a></td>
+						<td class="td"><a href="eliminar.php?id=<?php echo $dato->id_alumno; ?>"class="a">Eliminar</a></td>
 					</tr>
 					<?php
 				}

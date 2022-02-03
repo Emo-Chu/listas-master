@@ -1,0 +1,30 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+.login {
+    width: 350px;
+    margin: 100px auto;
+    font-size: 16px;
+    padding:15px;
+    border: rgb(172, 227, 235) 2px solid;
+    border-radius: 20px;
+  }
+.pequeña{
+    width: 120x; height: 120px;
+    border:10px;
+    margin-left: 30px;
+  }
+.usuario1{
+    padding: 8px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    font-family: Montserrat-Regular;
+}
+h2{
+    margin-left: 30PX;
+}
+img{
+    width: 120px;
+    height:120px ;
+}
