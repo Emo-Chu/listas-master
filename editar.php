@@ -24,6 +24,7 @@
 <head>
 	<title>Editar Alumno</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="editar.css">
 </head>
 <body>
 	<center>
