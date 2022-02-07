@@ -24,17 +24,35 @@
 </head>
 <body>
 	<center>
-		<h1>Bienvenido: <?php echo $_SESSION['nombre'] ?></h1>
-		<a href="cerrar.php" class="alto"> <b>Cerrar Sesión</b></a>
-		<h3>Tareas</h3>
+
+		<h1>Bienvenido: <?php echo $_SESSION['nombre'] ?><a href="cerrar.php" class="alto"><b>Cerrar Sesión</b></a> </h1>
+			<!-- inicio insert -->
+		<h3>Ingresar Tarea</h3>
+		
+		<form method="POST" action="insertar.php">
+			<table>
+				<tr>
+					<td>Lista: </td>
+					<td><input type="text" name="txtPaterno"></td>
+				</tr>
+				<input type="hidden" name="oculto" value="1">
+				<tr>
+					<td><input type="reset" name=""></td>
+					<td><input type="submit" value="INGRESAR TAREA"></td>
+				</tr>
+			</table>
+		</form>	 
+		
+			<!-- inicio insert -->
+		<h3>Lista de Tareas</h3>
+		
 		<table>
 			<tr>
-				<td class="td"><b> Código</b></td>
-				<td class="td"><b>Tarea</b></td>
+				<td class="td"><b> N°Tarea</b></td>
+				<td class="td"><b>Tarea a realizar</b></td>
 				<td class="td" ><b>Editar</b></td>
 				<td class="td"><b>Eliminar</b></td>
 			</tr>
-
 			<?php 
 				foreach ($alumnos as $dato) {
 					?>
@@ -52,20 +70,6 @@
 
 		<!-- inicio insert -->
 		<hr>
-		<h3>Ingresar Tarea</h3>
-		<form method="POST" action="insertar.php">
-			<table>
-				<tr>
-					<td>Lista: </td>
-					<td><input type="text" name="txtPaterno"></td>
-				</tr>
-				<input type="hidden" name="oculto" value="1">
-				<tr>
-					<td><input type="reset" name=""></td>
-					<td><input type="submit" value="INGRESAR TAREA"></td>
-				</tr>
-			</table>
-		</form>
 		<!-- fin insert-->
 
 	</center>
