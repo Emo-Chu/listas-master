@@ -1,5 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    background: #17202A;
   }
   
 .login {
@@ -24,8 +25,12 @@ body {
 h2{
     margin-bottom: 20px;
     margin-left: 30PX;
+    color: white;
 }
 img{
     width: 120px;
     height:120px ;
+}
+label{
+  color: white;
 }

@@ -9,27 +9,25 @@
 		//print_r($alumnos);
 	}else{
 		echo "Error en el sistema";
-	}
-
-
-	 
+	}	 
 ?>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
 	<title>Lista</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="index.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Pacifico&family=Teko:wght@300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/2ea7566a60.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<center>
-
 		<h1>Bienvenido: <?php echo $_SESSION['nombre'] ?><a href="cerrar.php" class="alto"><b>Cerrar Sesión</b></a> </h1>
 			<!-- inicio insert -->
+		<form method="POST" action="insertar.php" class="tareas">
 		<h3>Ingresar Tarea</h3>
-		
-		<form method="POST" action="insertar.php">
 			<table>
 				<tr>
 					<td>Lista: </td>
@@ -43,10 +41,11 @@
 			</table>
 		</form>	 
 		
-			<!-- inicio insert -->
-		<h3>Lista de Tareas</h3>
 		
-		<table>
+			<!-- inicio insert -->
+		
+		<table class="agregados">
+		<h3>Lista de Tareas Agregadas</h3>
 			<tr>
 				<td class="td"><b> N°Tarea</b></td>
 				<td class="td"><b>Tarea a realizar</b></td>
@@ -59,19 +58,17 @@
 					<tr>
 						<td class="td"><?php echo $dato->id_alumno; ?></td>
 						<td class="td"><?php echo $dato->ap_paterno; ?></td>
-						<td class="td"><a href="editar.php?id=<?php echo $dato->id_alumno; ?>"class="asul">Editar</a></td>
-						<td class="td"><a href="eliminar.php?id=<?php echo $dato->id_alumno; ?>"class="a">Eliminar</a></td>
+						<td class="td"><a href="editar.php?id=<?php echo $dato->id_alumno; ?>"class="zz"><i class="fas fa-edit"></i></a></td>
+						<td class="td"><a href="eliminar.php?id=<?php echo $dato->id_alumno; ?>"class="zz"><i class="fas fa-trash-alt"></i></a></td>
 					</tr>
+				
 					<?php
 				}
 			?>
-			
 		</table>
-
 		<!-- inicio insert -->
 		<hr>
 		<!-- fin insert-->
-
 	</center>
 </body>
 </html>

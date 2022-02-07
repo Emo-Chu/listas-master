@@ -60,9 +60,9 @@ CREATE TABLE `t_usuario` (
 --
 
 INSERT INTO `t_usuario` (`id_usuario`, `nombre_usu`, `password_usu`, `estado`) VALUES
-(1, 'mayumi', '123', b'0'),
-(2, 'oscar', '123', b'0'),
-(3, 'jenifer', '123', b'0');
+(1, 'alex', '123', b'0'),
+(2, 'diego', '123', b'0'),
+(3, 'roxana', '123', b'0');
 
 --
 -- Índices para tablas volcadas
