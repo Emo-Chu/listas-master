@@ -8,4 +8,6 @@ h3{
 .apellido{
     color: white;
     font-size: 20px;
+    background: #1f2d3d;
+    color: rebeccapurple;
 }

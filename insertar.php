@@ -13,6 +13,6 @@
 		//echo "Insertado correctamente";
 		header('Location: index.php');
 	}else{
-		echo "Error";
+		echo "Error peticion incorrecta. algo salio mal ";//notificar al usuario si el registro ingresado al sistema es valido
 	}
 ?>

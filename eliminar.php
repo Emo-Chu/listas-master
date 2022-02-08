@@ -1,4 +1,5 @@
-<?php  
+<?php 
+//elimnar registros de la bse de datos  
 	if (!isset($_GET['id'])) {
 		exit();
 	}
@@ -11,7 +12,7 @@
 	if ($resultado === TRUE) {
 		header('Location: index.php');
 	}else{
-		echo "Error";
+		echo "Error peticion no valida. ";
 	}
 
 ?>
