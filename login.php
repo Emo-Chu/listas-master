@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Iniciar</title>
+	<title>Iniciar Sesion</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="login.css">
 </head>
@@ -16,7 +16,7 @@
 	<center>
 		<form method="POST" action="loginProceso.php" class="login"> 
 			<img src="img/aea.png" alt="">
-			<h2>Ingresar</h2>
+			<h2>Bienvenido</h2>
 			<label>Usuario:</label>
 			<input type="text" name="txtUsu"placeholder="Usuario"class="usuario1">
 			<br>
