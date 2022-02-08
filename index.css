@@ -6,6 +6,14 @@ h1{
    color: #F1C40F;
    font-family: 'Pacifico', cursive;
 }
+body{
+    background:#17202A;
+}
+h1{
+   background-color:#212F3D;
+   color: #F1C40F;
+   font-family: 'Pacifico', cursive;
+}
 h3{
     color: white;
     font-size: 25px;

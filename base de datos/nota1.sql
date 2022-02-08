@@ -9,13 +9,10 @@ CREATE TABLE `alumno` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 
-
 INSERT INTO `alumno` (`id_alumno`, `ap_paterno`) VALUES
 (3, 'Navarro'),
 (4, 'Casillas'),
 (6, 'Gomez');
-
-
 
 CREATE TABLE `t_usuario` (
   `id_usuario` int(11) NOT NULL,
@@ -25,12 +22,10 @@ CREATE TABLE `t_usuario` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 
-
 INSERT INTO `t_usuario` (`id_usuario`, `nombre_usu`, `password_usu`, `estado`) VALUES
 (1, 'alex', '123', b'0'),
 (2, 'diego', '123', b'0'),
 (3, 'roxana', '123', b'0');
-
 
 ALTER TABLE `alumno`
   ADD PRIMARY KEY (`id_alumno`);
