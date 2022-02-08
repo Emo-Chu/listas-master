@@ -3,8 +3,8 @@ body{
 }
 h1{
    background-color:#212F3D;
-   color: #F1C40F;
-   font-family: 'Pacifico', cursive;
+   color: #f1f1f1;
+   font-family: 'Bebas Neue', cursive;
 }
 h3{
     color: white;
@@ -18,10 +18,11 @@ h3{
 .alto{
     margin-left: 700px;
     font-size:20px;
-    color:#F1C40F;
+    color:#e01a3b;
+    font-family: 'Bebas Neue', cursive;
 }
 .tareas{
-    border:solid 1px rgb(216, 216, 190);
+    
     color:white;
 }
 .agregados{
@@ -32,4 +33,8 @@ h3{
 .zz{
     color: #f3f8fb;
     width:50px;
+}
+.listas1{
+    font-size: 20px;
+
 }

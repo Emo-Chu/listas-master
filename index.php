@@ -21,6 +21,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Pacifico&family=Teko:wght@300&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/2ea7566a60.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 <body>
 	<center>
@@ -30,7 +33,7 @@
 		<h3>Ingresar Tarea</h3>
 			<table>
 				<tr>
-					<td>Lista: </td>
+					<td class="listas1">Lista: </td>
 					<td><input type="text" name="txtPaterno"></td>
 				</tr>
 				<input type="hidden" name="oculto" value="1">
@@ -40,7 +43,7 @@
 				</tr>
 			</table>
 		</form>	 
-		
+		<hr>
 		
 			<!-- inicio insert -->
 		

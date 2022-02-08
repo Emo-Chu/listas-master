@@ -28,17 +28,24 @@
 </head>
 <body>
 	<center>
-		<h3>Editar alumno:</h3>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>	
+		<br>
+		<h3>Editar Tarea:</h3>
 		<form method="POST" action="editarProceso.php">
 			<table>
 				<tr>
-					<td>Apellido paterno: </td>
+					<td class="apellido">Tarea: </td>
 					<td><input type="text" name="txt2Paterno" value="<?php echo $persona->ap_paterno; ?>"></td>
 				</tr>
 				<tr>
 					<input type="hidden" name="oculto">
 					<input type="hidden" name="id2" value="<?php echo $persona->id_alumno; ?>">
-					<td colspan="2"><input type="submit" value="EDITAR ALUMNO"></td>
+					<td colspan="2"><input type="submit" value="AGREGAR"></td>
 				</tr>
 			</table>
 		</form>
