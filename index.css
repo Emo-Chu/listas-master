@@ -1,0 +1,35 @@
+body{
+    background:#17202A;
+}
+h1{
+   background-color:#212F3D;
+   color: #F1C40F;
+   font-family: 'Pacifico', cursive;
+}
+h3{
+    color: white;
+    font-size: 25px;
+}
+.td{
+    padding: 15px;
+    padding-left: 150px; 
+    /*border: PowderBlue 1px solid;*/
+}
+.alto{
+    margin-left: 700px;
+    font-size:20px;
+    color:#F1C40F;
+}
+.tareas{
+    border:solid 1px rgb(216, 216, 190);
+    color:white;
+}
+.agregados{
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+}
+.zz{
+    color: #f3f8fb;
+    width:50px;
+}
