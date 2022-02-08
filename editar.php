@@ -14,7 +14,7 @@
 		$persona = $sentencia->fetch(PDO::FETCH_OBJ);
 		//print_r($persona);
 	}else{
-		echo "Error en el sistema";
+		echo "Error en el sistema, no se puede puede relizar accion";
 	}
 
 ?>
@@ -32,7 +32,7 @@
 		<form method="POST" action="editarProceso.php">
 			<table>
 				<tr>
-					<td>Apellido paterno: </td>
+					<td>Apellido paterno : </td>
 					<td><input type="text" name="txt2Paterno" value="<?php echo $persona->ap_paterno; ?>"></td>
 				</tr>
 				<tr>
