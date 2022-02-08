@@ -1,4 +1,7 @@
 body{
     background: #17202A;
-    color: rgb(255, 0, 191);
+    color: blue;
+}
+h3{font-family: 'Courier New', Courier, monospace;
+color:blueviolet;
 }
