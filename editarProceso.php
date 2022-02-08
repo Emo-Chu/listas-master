@@ -13,6 +13,6 @@
 	if ($resultado === TRUE) {
 		header('Location: index.php');
 	}else{
-		echo "Error";
+		echo "Error. peticion denegada";
 	}
 ?>
